@@ -9,23 +9,23 @@ html {
   scroll-behavior: smooth;
 }
 
-.clear{
+.clear {
   clear: both;
 }
 
-.text-white{
+.text-white {
   color: #fff !important;
 }
 
-.text-center{
+.text-center {
   text-align: center !important;
 }
 
-.pull-right{
+.pull-right {
   float: right !important;
 }
 
-.btn{
+.btn {
   color: #fff;
   margin-top: 15px;
   display: inline-block;
@@ -36,14 +36,14 @@ html {
   border: none;
 }
 
-.btn:hover{
+.btn:hover {
   color: #000;
   background-color: #ccc;
   border: none;
   /* padding: 11px 18px; */
 }
 
-.row{
+.row {
   margin-left: -8px;
   margin-right: -8px;
 }
@@ -54,33 +54,34 @@ html {
   clear: both;
 }
 
-.col{
+.col {
   float: left;
   padding-left: 8px;
   padding-right: 8px;
 }
 
-.col-half{
+.col-half {
   width: 50%;
 }
 
-.col-third{
+.col-third {
   width: 33.33333%;
 }
 
-.col-full{
+.col-full {
   width: 100%;
 }
 
-.mt-8{
+.mt-8 {
   margin-top: 8px !important;
 }
 
-.mt-16{
+.mt-16 {
   margin-top: 16px !important;
 }
 
-#main {}
+#main {
+}
 
 #header {
   position: fixed;
@@ -224,45 +225,45 @@ html {
   line-height: 1.4;
 }
 
-#content .member-list{
+#content .member-list {
   margin-top: 48px;
 }
 
-#content .member-name{
+#content .member-name {
   font-size: 15px;
 }
-#content .member-img{
+#content .member-img {
   width: 154px;
   margin-top: 15px;
   border-radius: 4px;
 }
 
 /* Tour section */
-.tour-section{
+.tour-section {
   background-color: black;
 }
 
-.ticket-list{
+.ticket-list {
   background-color: #fff;
   margin-top: 40px;
 }
 
-.ticket-list li{
+.ticket-list li {
   list-style: none;
   color: #757575;
   font-size: 15px;
   padding: 11px 16px;
-  border-bottom: 1px solid #ddd
+  border-bottom: 1px solid #ddd;
 }
 
-.ticket-list .sold-out{
+.ticket-list .sold-out {
   background-color: #f44336;
   color: white;
   padding: 3px 4px;
   margin-left: 16px;
 }
 
-.ticket-list .quantily{
+.ticket-list .quantily {
   float: right;
   width: 24px;
   height: 24px;
@@ -274,56 +275,56 @@ html {
   margin-top: -3px;
 }
 
-.places-list{
+.places-list {
   /* top right left bottom */
   margin-top: 32px;
 }
 
-.place-img{
+.place-img {
   width: 100%;
   display: block;
 }
 
-.place-img:hover{
+.place-img:hover {
   opacity: 0.6;
 }
-.place-body{
+.place-body {
   font-size: 15px;
   padding: 16px;
   background-color: #fff;
 }
-.place-heading{
+.place-heading {
   font-size: 15px;
   font-weight: 550px;
 }
-.place-time{
+.place-time {
   margin-top: 15px;
   color: #757575;
 }
-.place-desc{
+.place-desc {
   margin-top: 15px;
   line-height: 1.4;
 }
 
 /* Contact Form */
-.contact-content{
+.contact-content {
   margin-top: 48px;
 }
 
-.contact-info{
+.contact-info {
   font-size: 18px;
 }
 
-.contact-info i[class*="ti-"]{
+.contact-info i[class*="ti-"] {
   width: 30px;
   display: inline-block;
 }
 
-.contact-form{
+.contact-form {
   font-size: 15px;
 }
 
-.contact-form .form-control{
+.contact-form .form-control {
   padding: 10px;
   border: 1px solid #ccc;
   width: 100%;
@@ -331,16 +332,14 @@ html {
 }
 
 /* Map section */
-.map-section img{
+.map-section img {
   width: 100%;
 }
-
 
 /* Contact section */
 #footer {
   padding: 64px 16px;
   text-align: center;
-
 }
 
 #footer .social-list a {
@@ -348,37 +347,36 @@ html {
   text-decoration: none;
 }
 
-#footer .copy-right a:hover
-#footer .social-list a:hover{
+#footer .copy-right a:hover #footer .social-list a:hover {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#footer .social-list{
+#footer .social-list {
   font-size: 24px;
 }
 
-#footer .copy-right{
+#footer .copy-right {
   margin-top: 15px;
   color: rgba(0, 0, 0, 0.6);
 }
 
-#footer .copy-right a{
+#footer .copy-right a {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.modal{
+.modal {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.4);
+  background: rgba(0, 0, 0, 0.4);
   align-items: center;
   justify-content: center;
   display: none;
 }
 
-.modal.open{
+.modal.open {
   display: flex;
 }
 
@@ -388,7 +386,7 @@ html {
   max-width: calc(100% - 32px);
   min-height: 200px;
   position: relative;
-  animation: modalFadeIn ease .5s;
+  animation: modalFadeIn ease 0.5s;
 }
 
 .modal-header {
@@ -401,7 +399,7 @@ html {
   color: #fff;
 }
 
-.modal-heading-icon{
+.modal-heading-icon {
   margin-right: 16px;
 }
 
@@ -449,19 +447,19 @@ html {
   opacity: 0.9;
 }
 
-.modal-footer{
+.modal-footer {
   padding: 16px;
   text-align: right;
 }
 
-.modal-footer a{
+.modal-footer a {
   color: #2196f3;
 }
 
-.modal-help{
+.modal-help {
   display: inline-block;
-    float: right;
-    margin: 22px 0px;
+  float: right;
+  margin: 22px 0px;
 }
 
 .close-footer {
@@ -475,7 +473,7 @@ html {
   margin: 16px 0px;
 }
 
-.ti-close{
+.ti-close {
   font-size: 10px;
 }
 
@@ -485,12 +483,12 @@ html {
 }
 
 @keyframes modalFadeIn {
-  from{
+  from {
     opacity: 0;
-    transform: translateY(-140px) ;
+    transform: translateY(-140px);
   }
-  to{
+  to {
     opacity: 1;
-    transform: translateY(0) ;
+    transform: translateY(0);
   }
 }
